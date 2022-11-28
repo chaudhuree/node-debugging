@@ -1,12 +1,17 @@
+/*
+node js code debugging methods:
+1. core node js 
+2.node js inspector
+3.built in debugger in ide
+----
+webstorm is best ide
+*/
+const a=10
+const b=20
+const c=30
+const d=40
 
-const http = require('http')
-const server = http.createServer((req, res) => {
-  if (req.url === '/') {
-    res.write('This is home page')
-    res.end('to run this file run npm run startDev')
-  } else {
-    res.end('something is wrong')
-  }
-})
-
-server.listen(5000, () => console.log('server is on at Port :5000'))
+const ab=a+b
+const cd=c+d
+const result=cd-ab
+console.log(result)
