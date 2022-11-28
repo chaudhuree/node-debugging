@@ -1,3 +1,5 @@
+const axios = require("axios");
+const URL="https://restcountries.com/v3.1/all"
 /*
 node js code debugging methods:
 1. core node js 
@@ -26,3 +28,16 @@ webstorm is best ide
 // const cd=c+d
 // const result=cd-ab
 // console.log(result)
+
+//case 3:
+
+axios.get(URL)
+    .then(function (response) {
+
+        const countries=response.data
+        return countries
+    })
+    .catch(function (error) {
+
+        console.log(error);
+    })
