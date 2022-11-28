@@ -6,12 +6,23 @@ node js code debugging methods:
 ----
 webstorm is best ide
 */
-const a=10
-const b=20
-const c=30
-const d=40
+// const a=10
+// const b=20
+// const c=30
+// const d=40
+//
+// const ab=a+b
+// const cd=c+d
+// const result=cd-ab
+// console.log(result)
 
-const ab=a+b
-const cd=c+d
-const result=cd-ab
-console.log(result)
+// case 2: make error. dont pass the value of c and check.return NaN
+// const a=10
+// const b=20
+// const c
+// const d=40
+//
+// const ab=a+b
+// const cd=c+d
+// const result=cd-ab
+// console.log(result)
